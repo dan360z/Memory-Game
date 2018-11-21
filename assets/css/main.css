@@ -1,0 +1,56 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.card {
+    float: left;
+    margin: 10px;
+    height: 200px;
+    width: 150px;
+    background-color: #4285f4;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 7px 7px 10px #ccc;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card p {
+    font-size: 48px;
+    color: #f4f4f4; /*green #34a853*/
+}
+
+.selected {
+    background-color: #ea4335;
+}
+
+h1 {
+    font-size: 100px;
+    color: #34a853;
+    text-shadow: 4px 4px 10px #ccc;
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 100vw;
+        
+    }
+    .card {
+        height: 100px;
+        width: 75px;
+    }
+    .card p {
+        font-size: 24px;
+    }
+    
+    h1 {
+        font-size: 50px;
+    }
+}
